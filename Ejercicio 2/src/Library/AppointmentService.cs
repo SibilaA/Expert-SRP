@@ -1,5 +1,11 @@
-﻿/*using System;
+/*
+using System;
 using System.Text;
+
+//En este código se crea el paciente, el doctor y el appointment todo junto, por lo que no cumple con Expert y SRP.
+//Para que cumpla con Expert debe haber una clase para Doctor, Paciente y Appointment separadas.
+//Además, por letra, debería haber una clase para que valide cuando se creen las cosas (Paciente, Doctor, Appointment). 
+
 
 namespace Library
 {
